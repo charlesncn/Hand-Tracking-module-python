@@ -24,13 +24,7 @@ class handDetector():
                     self.mpDraw.draw_landmarks(img, handLms, self.mpHands.HAND_CONNECTIONS)
 
         return img
-                # for id, lm in enumerate(handLms.landmark):
-                #     # print(id,lm)
-                #     h, w, c = img.shape
-                #     cx, cy = int(lm.x*w), int(lm.y*h)
-                #     print(id, cx, cy)
-                #     if id == 8:
-                #         cv2.circle(img, (cx,cy), 25, (255,255,255), cv2.FILLED)
+
 
 def main():
     pTime = 0
